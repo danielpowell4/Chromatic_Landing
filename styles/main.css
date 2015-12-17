@@ -8,6 +8,14 @@
   text-align: center;
 }
 
+#first-geetar img {
+  margin: 0 auto;
+  max-width: 60%;
+  min-width: 280px;
+  height: auto;
+  display:block;
+}
+
 #process {
   display: flex;
   flex-direction: row;
