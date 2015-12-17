@@ -11,7 +11,7 @@
 }
 
 .bkgrnd-contrast {
-  background-color: #edefed
+  background-color: #edefed;
 }
 
 /* Above the fold */
@@ -102,12 +102,24 @@
       margin: 0 auto;
 }
 
-blockquote {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 40px;
-    -webkit-margin-end: 40px;
+.home-testimonial {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding: 0 30px;
+  text-align: left;
+  margin-bottom: 60px;
+  width: 49%;
+}
+
+.home-testimonial-face {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
 }
 
 .testimonial-words {
@@ -125,24 +137,29 @@ blockquote.testimonial-quote {
     margin: 20px 0 0;
 }
 
-  .home-testimonial {
-    font-size: 16px;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    padding: 0 30px;
-    text-align: left;
-    margin-bottom: 60px;
-    width: 49%;
+@media screen and (max-width: 864px){
+  .wrapper{
+    padding: 60px 15px 85px;
   }
-
+  .home-testimonial {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0 auto 40px auto;
+    width: 100%;
+  }
   .home-testimonial-face {
-    position: absolute;
-    top: 0;
-    left: 30px;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .testimonial-words {
+    margin-left: 72px;
+}
+blockquote.testimonial-quote {
+    font-size: 1.1em;
+
 }
 
 
