@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+.section-subtitle {
+  text-align: center;
+}
+
 .bkgrnd-contrast {
   background-color: #edefed;
 }
@@ -190,4 +194,24 @@ blockquote.testimonial-quote {
   height: 11vw;
   margin: 2vh;
   text-align:center;
+}
+
+/* Browse or Build*/
+
+#browse-or-build {
+
+}
+
+.b-or-b-parent {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.b-or-b-child {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
 }
