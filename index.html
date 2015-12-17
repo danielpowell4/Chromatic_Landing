@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Put in the Bootstrap-V4-alpha -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" integrity="sha384-XXXXXXXX" crossorigin="anonymous">
-  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" crossorigin="anonymous">
   <!-- other stylesheets -->
   <link rel="stylesheet" type="text/css" href="styles/main.css">
-</head>
+
+  <!--Make or break it scripts-->
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!--bootstrap-->
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+  </head>
 
 <body>
 
-  <!--Bring in the video-->
-  <video autoplay  poster="" id="bgvid" loop>
-      <source src="assets/video/stock-hero-background.web4m" type="video/webm">
-      <source src="assets/video/stock-hero-background.mp4" type="video/mp4">
-  </video>
+  <div class="container-fluid">
+  <!--Here comes the nav-->
+  <nav>
+  </nav>
 
-  <!--Place welcome text-->
-  <div id="welcome-note">
-      <h1>Create Couragously</h1>
-      <p>We have unlocked your ability to create the guitar you want to play.</p>
-      <button>Learn More</button>
-  </div>
+
+  <!--Above the fold-->
+
+  <section id="welcome" class="row">
+    <!--Bring in the video-->
+    <video autoplay  poster="" id="bgvid" loop>
+        <source src="assets/video/stock-hero-background.mp4" type="video/mp4">
+        <source src="assets/video/stock-hero-background.webm" type="video/webm">
+    </video>
+
+    <!--Place welcome text-->
+    <div id="welcome-note">
+        <h1>Create courageously</h1>
+        <p>We have unlocked your ability to create the guitar you want to play.</p>
+        <button>Learn More</button>
+    </div>
+  </section>
+  <!--What We Offer-->
+  <section id="offering" class="row">
+    <div></div>
+    <h2></h2>
+    <p></p>
+  </section>
+
+  <!--Our Process-->
+  <section id="process" class="row">
+    <!--Steps as Flexboxes-->
+    <!--Step 1-->
+    <div class="process-step">
+      <img>
+      <h3>Select</h3>
+      <p>You decide how your guitar should look. You can browse our store or submit your own design.</p>
+    </div>
+    <!--Step 2-->
+    <div class="process-step">
+      <img>
+      <h3>Produce</h3>
+      <p>Chromatic Guitars uses our patented technology to indivudally create the guitar you created.</p>
+    </div>
+    <!--Step 3-->
+    <div class="process-step">
+      <img>
+      <h3>Deliver</h3>
+      <p>Your guitar arrives at your door so that you can use it to create the music your soul craves.</p>
+    </div>
+  </section>
+
+  <!--Featured Artist-->
+  <section id="artist" class="row">
+    <div></div>
+    <h2></h2>
+    <p></p>
+  </section>
+
+  <!--Featured Store Items-->
+  <section id="artist" class="row">
+    <div></div>
+    <h2></h2>
+    <p></p>
+  </section>
+
+  <footer class="row">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </footer>
+
 
 </body>
