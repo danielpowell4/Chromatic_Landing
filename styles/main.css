@@ -42,7 +42,6 @@
 #offering h1 {
   text-align: center;
   margin: 0 auto;
-  text-transform: uppercase;
 }
 
 #offering p {
@@ -55,7 +54,6 @@
 
 #our-process h4 {
   text-align: center;
-  text-transform: uppercase;
 }
 
 #process {
@@ -73,9 +71,6 @@
   max-width: 400px;
 }
 
-.process-step h2 {
-  text-transform: uppercase;
-}
 
 /* Breakpoint that fixes process for mobile */
 @media screen and (max-width: 620px){
@@ -160,4 +155,39 @@ blockquote.testimonial-quote {
   blockquote.testimonial-quote {
     font-size: 1.1em;
   }
+}
+
+/* Featured Artist */
+#featured-artist-geetar  {
+  display:;
+  max-width: 540px;
+}
+
+#featured-artist-geetar img {
+  max-width: 500px;
+  height: auto;
+}
+
+.feet-artist-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+#featured-artist-flex-parent {
+  max-width: 540px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-left: 40px;
+
+}
+
+.featured-artist-child {
+  background-color: #fff;
+  min-width: 11vw;
+  height: 11vw;
+  margin: 2vh;
+  text-align:center;
 }
