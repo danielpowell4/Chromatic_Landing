@@ -52,6 +52,9 @@
       <div><img src="assets/img/gibson.jpg"></div>
       <div><img src="assets/img/gibson.jpg"></div>
       <div><img src="assets/img/gibson.jpg"></div>
+      <div><img src="assets/img/gibson.jpg"></div>
+      <div><img src="assets/img/gibson.jpg"></div>
+      <div><img src="assets/img/gibson.jpg"></div>
     </div>
 
   </section>
@@ -180,8 +183,36 @@
 
       $(document).ready(function(){
         $('.guitar-slider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  arrows: true,
+  dots: true,
 
-        });
+
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3,
+
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
       });
   </script>
 
