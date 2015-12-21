@@ -40,8 +40,16 @@ section {
 
 /* Slider Style*/
 
+.guitar-slider {
+  margin-bottom: 2vh;
+}
+
 .slider-img {
   margin: 0 auto;
+  max-width: 80%;
+  min-width: 280px;
+  max-height: 460px;
+  height: auto;
 }
 
 /* "Offering" Section */
