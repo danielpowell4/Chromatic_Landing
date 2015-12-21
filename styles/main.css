@@ -22,6 +22,10 @@ section {
   display:block;
 }
 
+.text-center {
+  text-align: center
+}
+
 /* Above the fold */
 #bgvid {
   min-width: 100%;
@@ -237,4 +241,33 @@ blockquote.testimonial-quote {
   max-width: 500px;
   text-align: center;
   margin: 0 auto;
+}
+
+/* Mailing List */
+
+.mailing-wrapper form {
+    max-width: 540px;
+    margin: 30px auto 0;
+    font-size: 0;
+}
+
+input[type="email"].mailing-list-email {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #ede7e4;
+    color: #988980;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.mailing-list-submit {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
 }
