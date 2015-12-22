@@ -30,6 +30,16 @@ section {
   display: none;
 }
 
+/* Fonts */
+
+h1 h2 h3 {
+  font-family: "alternate-gothic-no-3-d";
+  }
+
+h4 h5 h6 p blockquote{
+    font-family:  "proxima-nova-soft";
+    }
+
 /* Nav */
 
 nav {
