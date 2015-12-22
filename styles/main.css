@@ -290,3 +290,55 @@ input[type="email"].mailing-list-email {
     font-size: 16px;
     line-height: 50px;
 }
+
+/* Image Revealer */
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.image-reveal {
+  position: relative;
+}
+
+.under-slide {
+  position: relative;
+  overflow: hidden;
+  padding-top: 41%;
+  top: 0;
+  left: 0;
+  background: url("http://www.fmicassets.com/demandware/assets/acoustic-guitars/overview/acoustic-guitar-overview-classical-guitar-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.over-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateX(0px);
+  overflow: hidden;
+}
+
+.over-image {
+  height: 100%;
+  width: 100%;
+  background: url("http://www.fmicassets.com/demandware/assets/electric-guitars/overview/electric-overview-telecaster-guitar-mobile.png") no-repeat;
+  background-size: cover;
+  -webkit-transform: translateX(0px);
+}
+
+.divider {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  margin-left: -2px;
+  background-color: yellow;
+}
