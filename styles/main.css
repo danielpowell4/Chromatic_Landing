@@ -271,3 +271,14 @@ input[type="email"].mailing-list-email {
     vertical-align: middle;
     padding-left: 10px;
 }
+
+.mailing-list-submit input[type="submit"] {
+    width: 100%;
+    background: #c6b9b1;
+    color: #ffffff;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: 50px;
+}
