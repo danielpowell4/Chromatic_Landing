@@ -332,7 +332,7 @@ input[type="email"].mailing-list-email {
 .over-image {
   height: 100%;
   width: 100%;
-  background: url("/Chromatic_Landing/img/CG_Guitar_Liberty.png") no-repeat;
+  background: url("/Chromatic_Landing/assets/img/CG_Guitar_Liberty.png") no-repeat;
   background-size: cover;
   -webkit-transform: translateX(0px);
 }
