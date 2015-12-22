@@ -249,6 +249,10 @@ blockquote.testimonial-quote {
 
 /* Mailing List */
 
+#mail-signup {
+  height: 600px;
+}
+
 .mailing-wrapper form {
     max-width: 540px;
     margin: 30px auto 0;
