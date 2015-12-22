@@ -15,7 +15,7 @@
 }
 
 .bkgrnd-contrast {
-  background-color: #edefed;
+  background-color: #f9f5ed;
 }
 
 section {
@@ -56,7 +56,7 @@ section {
   margin: 0 auto;
   max-width: 80%;
   min-width: 280px;
-  max-height: 460px;
+  max-height: 500px;
   height: auto;
 }
 
@@ -102,10 +102,15 @@ section {
 .process-step {
   text-align: center;
   padding: 0 3vw;
-  min-width: 200px;
+  min-width: 280px;
   max-width: 400px;
 }
 
+.process-icon {
+  height: 200px;
+  width: auto;
+  margin: 0 auto 3vh auto;
+}
 
 /* Breakpoint that fixes process for mobile */
 @media screen and (max-width: 620px){
@@ -327,7 +332,7 @@ input[type="email"].mailing-list-email {
 .over-image {
   height: 100%;
   width: 100%;
-  background: url("http://www.fmicassets.com/demandware/assets/electric-guitars/overview/electric-overview-telecaster-guitar-mobile.png") no-repeat;
+  background: url("/img/CG_Guitar_Liberty.png") no-repeat;
   background-size: cover;
   -webkit-transform: translateX(0px);
 }
