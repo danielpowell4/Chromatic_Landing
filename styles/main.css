@@ -26,6 +26,10 @@ section {
   text-align: center
 }
 
+.hidden {
+  display: none;
+}
+
 /* Above the fold */
 #bgvid {
   min-width: 100%;
