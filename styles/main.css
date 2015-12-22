@@ -332,7 +332,7 @@ input[type="email"].mailing-list-email {
 .over-image {
   height: 100%;
   width: 100%;
-  background: url("assets/img/Stratocaster_Liberty.jpg") no-repeat;
+  background: url("Chromatic_Landing/assets/img/Stratocaster_Liberty.jpg") no-repeat;
   background-size: cover;
   -webkit-transform: translateX(0px);
 }
