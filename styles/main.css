@@ -116,12 +116,14 @@ nav {
 #offering h1 {
   text-align: center;
   margin: 0 auto;
+  font-size: 3.75em;
 }
 
 #offering p {
   text-align: center;
   max-width: 700px;
   margin: 24px auto;
+  font-size: 1.3em;
 }
 
 /* "Process" Section */
