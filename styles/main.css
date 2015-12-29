@@ -273,6 +273,13 @@ blockquote.testimonial-quote {
   text-align:center;
 }
 
+.slick-dots li button:before {
+
+    content: none!important;
+
+}
+
+
 /* Browse or Build*/
 
 #browse-or-build {
