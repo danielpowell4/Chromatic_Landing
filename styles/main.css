@@ -115,14 +115,14 @@ nav {
 
 #offering h1 {
   text-align: center;
-  margin: 0 auto;
+  margin: -28px auto 0 auto;
   font-size: 3.75em;
 }
 
-#offering h3 {
+#offering h4 {
   text-align: center;
   margin: 0 auto;
-  font-size: 1.65em;
+  font-size: 1.8em;
 }
 
 
