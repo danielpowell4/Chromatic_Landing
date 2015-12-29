@@ -365,6 +365,21 @@ input[type="email"].mailing-list-email {
     background: #11a2a7;
   }
 
+@media screen and (max-width: 680px) {
+  input[type="email"].mailing-list-email {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .mailing-list-submit {
+    display: block;
+    width: 80%;
+    padding: 4vw 0;
+    margin: 0 auto;
+  }
+
+}
+
 /* Image Revealer */
 
 .container {
