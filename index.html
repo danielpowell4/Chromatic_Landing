@@ -147,6 +147,13 @@
   </script>
 
   <script>
+
+  // These will save the day in due time!
+  var isTouchSupported = 'ontouchstart' in window;
+  var startEvent = isTouchSupported ? 'touchstart' : 'mousedown';
+  var moveEvent = isTouchSupported ? 'touchmove' : 'mousemove';
+  var endEvent = isTouchSupported ? 'touchend' : 'mouseup';
+
   (function () {
   var imageReveal, bind = function (fn, me) {
           return function () {
