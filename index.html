@@ -39,7 +39,7 @@
     <div class="container">
 
     <div class="image-reveal js-image-reveal">
-      <div class="under-slide">
+      <div class="under-slide" id="underslide">
         <div class="over-slide js-over-slide">
           <div class="over-image js-over-image">
           </div>
@@ -148,6 +148,8 @@
 
   <script>
 
+  document.getElementById('#under-slide').css({ "background": url('http://danielpowell4.github.io/Chromatic_Landing/assets/img/Stratocaster_Black.jpg') no-repeat;});
+
   // These will save the day in due time!
   var isTouchSupported = 'ontouchstart' in window;
   var startEvent = isTouchSupported ? 'touchstart' : 'mousedown';
@@ -211,7 +213,6 @@
   });
 }.call(this));
 
-    $('.under-slide').css({ "background": url('http://danielpowell4.github.io/Chromatic_Landing/assets/img/Stratocaster_Black.jpg') no-repeat;});
 
   </script>
 
