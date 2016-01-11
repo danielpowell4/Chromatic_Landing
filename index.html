@@ -132,13 +132,13 @@
 
       $(document).ready(function(){
         $('.guitar-slider').slick({
-  centerMode: true,
-  centerPadding: '0',
-  slidesToShow: 1,
-  arrows: true,
-  dots: true,
-  autoplay: true,
-  autoplaySpeed: 2400,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 1,
+          arrows: true,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2400,
 
 
 });
@@ -171,7 +171,6 @@
           this.overSlide = this.el.find('.js-over-slide');
           this.overImage = this.el.find('.js-over-image');
           this.divider = this.el.find('.js-divider');
-          console.log(this.el);
           this._bindEvents();
           this.resetReveal();
       }
@@ -211,6 +210,9 @@
       return new imageReveal($('.js-image-reveal'));
   });
 }.call(this));
+
+    $('.under-slide').css({ "background": url('http://danielpowell4.github.io/Chromatic_Landing/assets/img/Stratocaster_Black.jpg') no-repeat;});
+
   </script>
 
 </body>
